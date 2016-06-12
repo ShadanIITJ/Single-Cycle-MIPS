@@ -1,0 +1,120 @@
+{C:/Modeltech_pe_edu_10.4a/examples/single plus/Mux 8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\Mux 8.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux8
+-- Compiling architecture Mux8 of Mux8
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/pc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/single plus/pc.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC
+-- Compiling architecture PC of PC
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/control unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/single plus/control unit.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit
+-- Compiling architecture ControlUnit of ControlUnit
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/alu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\alu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity Alu
+-- Compiling architecture Alu of Alu
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/mux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/single plus/mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux
+-- Compiling architecture Mux of Mux
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/data memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\data memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DataMem
+-- Compiling architecture DataMem of DataMem
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/alu control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\alu control.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AluControl
+-- Compiling architecture AluControl of AluControl
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/register file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\register file.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RegFile
+-- Compiling architecture RegFile of RegFile
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/inst memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\inst memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstMem
+-- Compiling architecture InstMem of InstMem
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/mux 5.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/single plus/mux 5.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux5
+-- Compiling architecture Mux5 of Mux5
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\cpu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity CPU
+-- Compiling architecture CPU of CPU
+-- Compiling configuration CPUConf
+-- Loading entity CPU
+-- Loading architecture CPU of CPU
+-- Loading entity PC
+-- Loading entity Adder
+-- Loading entity Mux8
+-- Loading entity InstMem
+-- Loading entity ControlUnit
+-- Loading entity Mux5
+-- Loading entity RegFile
+-- Loading entity AluControl
+-- Loading entity Mux
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading entity Alu
+-- Loading entity DataMem
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/single plus/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Modeltech_pe_edu_10.4a\examples\single plus\adder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Adder
+-- Compiling architecture Adder of Adder
+
+} {} {}}

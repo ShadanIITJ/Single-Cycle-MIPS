@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.all;
+
+entity InstMem is
+    Port ( address : in  std_logic_vector (7 downto 0);
+		clk : in std_logic;         
+		dataOut : out  std_logic_vector(31 downto 0));
+end InstMem;
+
+
+architecture InstMem of InstMem is
+
+type mem_255x32 is array (0 to 255) of std_logic_vector(31 downto 0);
+signal memContent: mem_255x32 ;
+begin
+	process (clk)
+	begin
+		if rising_edge(clk) then
+			--if memWrite = '0' then
+				dataOut <= memContent(to_integer(unsigned(address)));
+			
+			--else
+			--	memContent(to_integer(unsigned(address))) <= dataIn;
+			--end if;
+		end if;
+
+	end process;	
+
+end InstMem;
+
